@@ -2,10 +2,10 @@ import { EMethods, IResponse } from "domain/entities";
 import { getUsersUseCase } from "domain/useCases";
 import { METHODS } from "../common";
 
-export const UsersController = (method: EMethods, res: IResponse) => {
+export const UsersController = (method: EMethods, res: IResponse, data: any) => {
   switch(method) {
       case METHODS.GET:
       default:
-        return getUsersUseCase(res);
+        return getUsersUseCase(res, data);
     }
 };

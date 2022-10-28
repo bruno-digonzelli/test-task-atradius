@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "first name": "Cole",
+    "last name": "Yusuf",
+    "username": "61JANE",
+    "gender": "male",
+    "age": 13,
+    "address": {
+      "location": {
+        "street number": 2,
+        "street name": "Coffin bay",
+        "city": "Amman",
+        "country": "Saint Pierre and Miquelon",
+        "company": "Home Depot"
+      },
+      "ip address": "110.141.71.13.74",
+      "zip code": 53891
+    },
+    "phone": 2795307087,
+    "email": "Gravytrainlane61JANE@hotmail.fr",
+    "website": "HomeDepot.cn",
+    "friendly": false,
+    "hobby": [
+      "Harry Potter."
+    ]
+  },
+  {
+    "id": 2,
+    "first name": "Marcel",
+    "last name": "Laesey",
+    "username": "Zeke59",
+    "gender": "male",
+    "age": 24,
+    "address": {
+      "location": {
+        "street number": 3,
+        "street name": "Van",
+        "city": "San juan",
+        "country": "Saint Pierre and Miquelon",
+        "company": "BHP Group"
+      },
+      "ip address": "61.104.189.169.67",
+      "zip code": 32645
+    },
+    "phone": 3070401475,
+    "email": "LorienavenueZeke59@gmail.com",
+    "website": "BHPGroup.co",
+    "friendly": true,
+    "hobby": [
+      "Underwater Photography",
+      "Streaking"
+    ]
+  },
+  {
+    "id": 3,
+    "first name": "Jesus",
+    "last name": "Saleh",
+    "username": "Tomas12",
+    "gender": "male",
+    "age": 19,
+    "address": {
+      "location": {
+        "street number": 6,
+        "street name": "Kings road",
+        "city": "Riga",
+        "country": "Mozambique",
+        "company": "AbbVie"
+      },
+      "ip address": "79.22.178.51.134",
+      "zip code": 57272
+    },
+    "phone": 3108197612,
+    "email": "CoffinbayTomas12@hotmail.es",
+    "website": "AbbVie.cf",
+    "friendly": false,
+    "hobby": [
+      "Tether Car"
+    ]
+  },
+  {
+    "id": 4,
+    "first name": "Zaid",
+    "last name": "Saleh",
+    "username": "Bridger6",
+    "gender": "male",
+    "age": 23,
+    "address": {
+      "location": {
+        "street number": 9,
+        "street name": "Batman avenue",
+        "city": "Ulaanbaatar",
+        "country": "Marshall Islands",
+        "company": "Samsung Electronics"
+      },
+      "ip address": "59.128.27.65.108",
+      "zip code": 33374
+    },
+    "phone": 3055396455,
+    "email": "HillBridger6@hotmail.de",
+    "website": "SamsungElectronics.top",
+    "friendly": false,
+    "hobby": [
+      "Scrabble.",
+      "Geocaching",
+      "Drinking."
+    ]
+  },
+  {
+    "id": 5,
+    "first name": "Julia",
+    "last name": "Herrera",
+    "username": "NannyGoatStrutAlley35",
+    "gender": "female",
+    "age": 33,
+    "address": {
+      "location": {
+        "street number": 5,
+        "street name": "Greenlane",
+        "city": "Sarajevo",
+        "country": "French Polynesia",
+        "company": "Goldman Sachs Group"
+      },
+      "ip address": "180.138.149.48.20",
+      "zip code": 68371
+    },
+    "phone": 3350537010,
+    "email": "NannyGoatStrutAlley35Side@me.com",
+    "website": "GoldmanSachsGroup.cf",
+    "friendly": false,
+    "hobby": [
+      "FarmVilla."
+    ]
+  }
+]
