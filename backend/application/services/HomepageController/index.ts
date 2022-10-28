@@ -1,4 +1,3 @@
-import { HomepageController, METHODS } from "./HomepageController";
+import { HomepageController } from "./HomepageController";
 
-export { METHODS };
 export default HomepageController;
