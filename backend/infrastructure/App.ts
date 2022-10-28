@@ -4,6 +4,7 @@ import express, { Application } from 'express';
 import { METHODS } from 'application';
 import HomepageController from 'application/services/HomepageController';
 import UsersController from 'application/services/UsersController';
+import NotFoundController from 'application/services/NotFoundController';
 import UsersData from './dataSource/UsersData';
 
 const app: Application = express();
@@ -16,6 +17,9 @@ app.get('/', (_, res) => HomepageController(METHODS.GET, res));
 
 // Users
 app.get('/users', (_, res) => UsersController(METHODS.GET, res, UsersData));
+
+// 404
+app.get('*', (_, res) => NotFoundController(METHODS.GET, res));
 
 const port = process.env.PORT || 3000;
 
