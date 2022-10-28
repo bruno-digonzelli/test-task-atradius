@@ -3,16 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "workspaces": [
-    "infrastructure/*",
-    "application/*",
-    "domain/*",
+    "infrastructure",
+    "application",
+    "domain",
     "packages/*"
   ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "serve": "npm run serve -w=infrastructure"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
