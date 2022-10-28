@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "workspaces": [
-    "infrastructure/*",
-    "application/*",
-    "domain/*",
+    "infrastructure",
+    "application",
+    "domain",
     "packages/*"
   ],
   "scripts": {
