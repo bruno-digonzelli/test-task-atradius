@@ -1,7 +1,6 @@
 import { EMethods, IResponse } from "domain/entities";
 import { getHomepageUseCase } from "domain/useCases";
-
-export const METHODS = {...EMethods};
+import { METHODS } from "../common";
 
 export const HomepageController = (method: EMethods, res: IResponse) => {
   switch(method) {
