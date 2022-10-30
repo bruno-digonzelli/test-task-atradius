@@ -1,5 +1,8 @@
 {
+  "compilerOptions": {
+    "jsx": "react"
+  },
   "extends": "tsconfig/base",
-  "include": ["**/*.ts"],
+  "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }

@@ -1,8 +1,8 @@
 {
   "name": "application",
   "version": "0.0.0",
-  "main": "./index.ts",
-  "types": "./index.ts",
+  "main": "./index.tsx",
+  "types": "./index.tsx",
   "scripts": {},
   "dependencies": {
     "@chakra-ui/react": "^2.3.6",
