@@ -1,13 +1,22 @@
-import { Center, Text } from 'application/UI'
+import { fetcher } from 'application/services'
+import { Container, Table } from 'application/UI'
+import { getFormattedUserData } from 'domain'
+import { API_URL } from 'domain/constants'
 import React from 'react'
+import useSWR from 'swr'
 
 const Users = () => {
+const { data, error } = useSWR(`${API_URL}/users`, fetcher)
+
+if (error) return <div>failed to load</div>;
+if (!data) return <div>loading...</div>;
+
+const usersTableData = getFormattedUserData(data.message);
+
   return (
-    <Center height={'100vh'}>
-        <Text fontSize={'5xl'} color="blue.200" fontWeight={'bold'}>
-          Users
-        </Text>
-    </Center>
+    <Container maxW='container.xl' width={'100%'} mt='32'>
+      <Table headers={['First name', 'Last name', 'Hobby', 'Zip Code']} data={usersTableData} />
+    </Container>
   )
 }
 
