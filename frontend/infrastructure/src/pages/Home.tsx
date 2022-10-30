@@ -1,15 +1,14 @@
 import React from 'react'
 import { Center, Text } from 'application/UI';
-import useSWR from 'swr'
+import { fetcher } from 'application/services';
+import useSWR from 'swr';
+import { API_URL } from 'domain/constants';
 
 const Home = () => {
-  // @ts-ignore
-  const fetcher = (...args) => window.fetch(...args).then(res => res.json())
+const { data, error } = useSWR(`${API_URL}/`, fetcher)
 
-  const { data, error } = useSWR('http://localhost:3000/', fetcher)
-
-  if (error) return <div>failed to load</div>
-  if (!data) return <div>loading...</div>
+  if (error) return <div>failed to load</div>;
+  if (!data) return <div>loading...</div>;
 
   const { message } = data;
 
