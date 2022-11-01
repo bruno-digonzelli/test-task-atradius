@@ -28,7 +28,6 @@ The technologies used are:
 
 - Node
 - React
-- Context API
 - Vite
 - Vitest
 - React testing library
