@@ -1,0 +1,27 @@
+{
+  "name": "test-task-atradius",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install && npm run install-packages",
+    "install-packages": "concurrently \"cd backend && npm install\" \"cd frontend && npm install\"",
+    "start": "concurrently \"cd backend && npm run serve\" \"cd frontend && npm run dev\"",
+    "build": "concurrently \"cd backend && npm run build\" \"cd frontend && npm run build\"",
+    "test": "concurrently \"cd frontend && npm run test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruno-digonzelli/test-task-atradius.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bruno-digonzelli/test-task-atradius/issues"
+  },
+  "homepage": "https://github.com/bruno-digonzelli/test-task-atradius#readme",
+  "devDependencies": {
+    "concurrently": "^7.5.0"
+  }
+}
