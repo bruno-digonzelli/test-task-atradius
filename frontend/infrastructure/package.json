@@ -1,0 +1,35 @@
+{
+  "name": "infrastructure",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "application": "*",
+    "domain": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2",
+    "swr": "^1.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "eslint": "7.32.0",
+    "eslint-config-custom": "*",
+    "jsdom": "^20.0.2",
+    "tsconfig": "*",
+    "typescript": "^4.5.3",
+    "vite": "^3.2.0",
+    "vitest": "^0.24.4"
+  }
+}
