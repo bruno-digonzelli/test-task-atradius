@@ -1,5 +1,5 @@
 import { TableContainer, TableCaption, Thead, Tr, Th, Tbody, Td, Table as ChakraTable } from '@chakra-ui/react'
-import { ITable } from 'domain'
+import { ITable } from 'domain/entities'
 import React from 'react'
 
 const Table = ({headers, data}: ITable): JSX.Element => {
