@@ -1,6 +1,6 @@
 import { fetcher } from 'application/services'
 import { Container, Table } from 'application/UI'
-import { getFormattedUserData } from 'domain'
+import { getFormattedUserData } from 'domain/useCases'
 import { API_URL } from 'domain/constants'
 import React from 'react'
 import useSWR from 'swr'
